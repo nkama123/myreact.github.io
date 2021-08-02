@@ -1,0 +1,172 @@
+
+.container{
+    padding: 1%;
+}
+
+ .container img{
+     padding-top: 2%;
+     padding-right: 3%;
+ }  
+ .last img{
+     padding: 2%;
+     padding-right: 2%;
+ }
+ .contact h1{
+     text-align: center;
+     padding: 2%;
+     font-size: 30px;
+
+ }
+ .contact h2{
+     text-align: center;
+     
+ }
+ .wrapper {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+
+     
+ }
+ .wrapper .contact-info{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+
+ }
+
+.wrapper  .contact-info .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+ .wrapper .contact-info h2{
+     font-size: 36px;
+     font-weight: 500;
+
+ }
+
+
+.hope{
+    background-color:rgb(21, 16, 29);
+    padding: 1.5%;
+}
+.hope ul li {
+    list-style: none;
+    display: inline;
+    padding: 2%;
+
+}
+.hope ul li a{
+    color: white;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.cont{
+    background-color: rgb(21, 16, 29);
+    padding: 0.5%;
+}
+
+.cont h1{
+    font-style: italic;
+    text-transform: capitalize;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.con ul li {
+    display: inline;
+    list-style-type: circle;
+    text-align: justify;
+
+}
+
+
+body{
+    background-color: whitesmoke;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.resume-wrapper{
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+}
+.resume-wrapper .resume-left{
+    width: 35%;
+    background: #26252d;
+}
+.resume-wrapper .resume-left .resume-image{
+    width: 100%;
+
+}
+.resume-wrapper .resume-left .resume-image img{
+    width: 100%;
+    display: block;
+}
+.resume-wrapper .resume-tittle{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+.resume-wrapper .resume-left .resume-info{
+    color: #848384;
+}
+.resume-wrapper .resume-left .resume-bottom{
+    padding:20px 30px ;
+}
+.resume-wrapper .resume-item{
+    padding: 20px 0;
+    border-bottom: 1px solid #0175b2;
+}
+.resume-wrapper.resume-item:last-child{
+    border-bottom: 0px;
+}
+
+.resume-wrapper .resume-right{
+    width: 65%;
+    padding: 20px;
+}
+.resume-wrapper .resume-right .name{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+
+    
+}
+.resume-wrapper .resume-right .resume-namerole .role{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.cover h1{
+    text-align: center;
+    font-style: italic;
+
+}
+.cover ul li{
+    list-style: circle;
+    font-size: large;
+    padding: 1%;
+}
+.bottom h3{
+    background-color: rgb(21, 16, 29);
+    color: white;
+    padding: 0.5%;
+    font-style: italic;
+    text-align: center;
+}
+
